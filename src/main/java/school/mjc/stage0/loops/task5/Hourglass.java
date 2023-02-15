@@ -35,9 +35,6 @@ public class Hourglass {
             for (int j = (height) - i; j > height / 2; j--) {
                 System.out.print(" ");
             }
-            if (i == height / 2) {
-                return;
-            }
             System.out.println();
         }
     }
