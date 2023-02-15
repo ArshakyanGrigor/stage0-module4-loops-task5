@@ -31,9 +31,14 @@ public class Hourglass {
                 for (int m = 0; m <= ((2 * i)); m++) {
                     System.out.print("8");
                 }
-            }
-            for (int j = (height) - i; j > height / 2 + 1; j--) {
-                System.out.print(" ");
+            }if(height % 2 == 0) {
+                for (int j = (height) - i; j > height / 2; j--) {
+                    System.out.print(" ");
+                }
+            }else {
+                for (int j = (height) - i; j > height / 2 + 1; j--) {
+                    System.out.print(" ");
+                }
             }
             System.out.println();
         }
