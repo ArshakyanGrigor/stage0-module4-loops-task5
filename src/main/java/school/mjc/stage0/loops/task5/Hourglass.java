@@ -32,7 +32,7 @@ public class Hourglass {
                     System.out.print("8");
                 }
             }
-            for (int j = (height) - i; j > height / 2; j--) {
+            for (int j = (height) - i; j > height / 2 + 1; j--) {
                 System.out.print(" ");
             }
             System.out.println();
